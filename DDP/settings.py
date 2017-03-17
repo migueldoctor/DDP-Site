@@ -136,8 +136,6 @@ INSTALLED_APPS = (
     'sekizai',
     'treebeard',
     'djangocms_text_ckeditor',
-    'filer',
-    'easy_thumbnails',
     'djangocms_column',
     'djangocms_link',
     'cmsplugin_filer_file',
@@ -148,6 +146,10 @@ INSTALLED_APPS = (
     'djangocms_snippet',
     'djangocms_googlemap',
     'djangocms_video',
+    'easy_thumbnails',
+    'filer',
+    'mptt',
+    'aldryn_bootstrap3',
     'DDP'
 )
 
@@ -205,7 +207,7 @@ DATABASES = {
 }
 
 MIGRATION_MODULES = {
-    
+
 }
 
 THUMBNAIL_PROCESSORS = (

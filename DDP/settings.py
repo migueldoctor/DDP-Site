@@ -150,6 +150,16 @@ INSTALLED_APPS = (
     'filer',
     'mptt',
     'aldryn_bootstrap3',
+    'aldryn_apphooks_config',
+    'aldryn_categories',
+    'aldryn_common',
+    'aldryn_newsblog',
+    'aldryn_people',
+    'aldryn_reversion',
+    'aldryn_translation_tools',
+    'parler',
+    'sortedm2m',
+    'taggit',
     'DDP'
 )
 
